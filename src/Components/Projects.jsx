@@ -30,22 +30,22 @@ const projects = [
     github: "https://github.com/yourusername/project-two",
     liveDemo: "https://yawi-1.github.io/collegeWebsite.github.io/",
   },
-  {
-    id: 4,
-    title: "Project Four",
-    description: "An innovative tool designed to enhance productivity and efficiency.",
-    image: "https://via.placeholder.com/400x250", // Replace with actual image URL
-    github: "https://github.com/yourusername/project-four",
-    liveDemo: "https://project-four.example.com",
-  },
-  {
-    id: 5,
-    title: "Project Five",
-    description: "A comprehensive platform providing seamless user interactions and advanced features.",
-    image: "https://via.placeholder.com/400x250", // Replace with actual image URL
-    github: "https://github.com/yourusername/project-five",
-    liveDemo: "https://project-five.example.com",
-  },
+  // {
+  //   id: 4,
+  //   title: "Project Four",
+  //   description: "An innovative tool designed to enhance productivity and efficiency.",
+  //   image: "https://via.placeholder.com/400x250", // Replace with actual image URL
+  //   github: "https://github.com/yourusername/project-four",
+  //   liveDemo: "https://project-four.example.com",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Project Five",
+  //   description: "A comprehensive platform providing seamless user interactions and advanced features.",
+  //   image: "https://via.placeholder.com/400x250", // Replace with actual image URL
+  //   github: "https://github.com/yourusername/project-five",
+  //   liveDemo: "https://project-five.example.com",
+  // },
 ];
 
 const Projects = () => {
@@ -69,6 +69,7 @@ const Projects = () => {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-64 object-cover"
+                loading="lazy"
               />
               <div
 

@@ -67,6 +67,7 @@ const Home = ({showForm,setShowForm}) => {
             src={HeroImg}
             alt="my profile"
             className="rounded-2xl w-2/3 md:w-full mx-auto mb-10 md:mb-0"
+            loading="lazy"
           />
         </motion.div>
       </div>
