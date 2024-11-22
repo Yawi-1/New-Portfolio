@@ -24,7 +24,7 @@ const Navbar = ({showForm,setShowForm}) => {
       <ul className="hidden md:flex">
         {links.map(({ id,href, link,onclick }) => (
           <motion.li
-          initial={{ scale:2, opacity: 0 }}
+          initial={{ scale:0.5, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
             key={id}
