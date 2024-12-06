@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import EduTutor from '../../public/EduTutor.png'
-import University from '../../public/university.png'
-import Ecommerce from '../../public/Ecommerce.png'
+import EduTutor from '../../public/EduTutor.webp'
+import University from '../../public/university.webp'
+import Ecommerce from '../../public/Ecommerce.webp'
 import { motion } from "framer-motion";
 // Sample projects data
 const projects = [

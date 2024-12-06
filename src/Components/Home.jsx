@@ -11,7 +11,6 @@ const Home = ({ showForm, setShowForm }) => {
       id="home"
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 px-4 pt-40 md:pt-0 sm:px-6 pb-4 "
-    // style={{ paddingTop: "8rem" }} 
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row text-white">
         <div className="flex flex-col justify-center h-full md:pr-8 text-center md:text-left">
@@ -30,14 +29,14 @@ const Home = ({ showForm, setShowForm }) => {
             like React, Node, MongoDB, and Tailwind.
           </p>
           <div className="flex flex-col md:flex-row py-2 gap-4 mx-auto md:mx-0">
-            <button
+            <a href='#projects'
               className=" text-md group flex items-center gap-4 px-6 py-3 my-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md cursor-pointer">
               Portfolio
               <span
                 className="group-hover:rotate-90 duration-300 ml-2">
                 <MdOutlineKeyboardArrowRight size={25} />
               </span>
-            </button>
+            </a>
             <button
               onClick={() => setShowForm(true)} className="shadow-md  hover:bg-orange-500 hover:text-white duration-500 flex items-center gap-4 px-6 py-3 rounded-full my-2 bg-white text-orange-500">
               Contact Me
