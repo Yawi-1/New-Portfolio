@@ -47,7 +47,7 @@ const links =[
 ]
   return (
     <div
-     className=" top-[35%]  left-0 w-full fixed">
+     className=" md:top-[35%] bottom-10 left-0 w-full fixed">
       <ul className="">
         {links.map(({id,child,href,download,style})=>(
            <li key={id} className={"flex  justify-between items-center px-4 w-40 h-14 bg-gray-500 ml-[-100px] hover:ml-[-10px] duration-300 " + " " + style}>

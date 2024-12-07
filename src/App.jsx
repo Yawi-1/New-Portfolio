@@ -19,10 +19,10 @@ function App() {
       <Navbar showForm={showForm} setShowForm={setShowForm} />
       <Suspense fallback={<Spinner/>}>
         <Home showForm={showForm} setShowForm={setShowForm} />
-        <About />
         <SocailLinks />
         <Skills />
         <Projects />
+        <About />
       </Suspense>
 
       <ToastContainer />
