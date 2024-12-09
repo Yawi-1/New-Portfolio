@@ -54,7 +54,7 @@ const Home = ({ showForm, setShowForm }) => {
           {showForm && <ContactModal setShowForm={setShowForm} />}
           <p
             className="text-gray-400 py-4 md:w-[70%]  md:mx-0">
-            Hello! I'm <span className="font-bold text-white">Mudasir Javid Malik</span>, a passionate web developer specializing 
+            Hello! I'm <span className="font-bold text-white">Mudasir Javid Malik</span>, a passionate web developer specializing
             in building modern, responsive applications using the <span className="font-bold text-white">MERN Stack</span> (MongoDB,Express,React, & Node);
           </p>
           <div className="flex md:w-[70%]  md:flex-row py-2 text-xs md:text-sm gap-4 mx-auto md:mx-0">
@@ -66,15 +66,19 @@ const Home = ({ showForm, setShowForm }) => {
                 <MdOutlineKeyboardArrowRight size={25} />
               </span>
             </a>
+
             <button
               onClick={() => setShowForm(true)}
-               className="shadow- group transition-all hover:bg-orange-500
-                hover:text-white duration-500 flex items-center gap-4 px-2 py-1 md:px-6 md:py-3  rounded-full my-2 bg-white text-orange-500">
+              className="shadow group transition-all flex items-center 
+              gap-4 px-2 py-1 md:px-6 md:py-3 text-white duration-500
+              bg-orange-500 rounded-full my-2  hover:bg-white hover:text-orange-500"
+            
+            >
               Contact Me
-              <span
-                className="group-hover:scale-115"><IoMail size={25} /></span>
+              <span className="group-hover:scale-115">
+                <IoMail size={25} />
+              </span>
             </button>
-          
           </div>
         </div>
 
@@ -86,7 +90,7 @@ const Home = ({ showForm, setShowForm }) => {
           <img
             src={HeroImg}
             alt="my profile"
-            className="rounded-2xl w-2/3 md:w-full mx-auto mb-10 md:mb-0"
+            className="rounded-2xl  w-2/3 md:w-full mx-auto mb-10 md:mb-0"
             loading="lazy"
           />
         </motion.div>
